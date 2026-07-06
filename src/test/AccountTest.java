@@ -46,4 +46,11 @@ public class AccountTest {
 
 }
 
+@Test
+    public void withdraw500InAccountWithPin(){
+       shukuratAccount.deposit(500);
+       shukuratAccount.accountPin(1234);
+       assertEquals(500, shukuratAccount.getBalance());
+}
+
 }
