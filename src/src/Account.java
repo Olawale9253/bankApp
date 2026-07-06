@@ -1,4 +1,4 @@
-package bankApp;
+package src;
 
 public class Account {
     private int balance;
@@ -17,4 +17,8 @@ public class Account {
         return pin;
     }
 
+    public void registerAccount() {
+        String customerName = "";
+
+    }
 }

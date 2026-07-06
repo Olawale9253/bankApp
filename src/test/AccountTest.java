@@ -1,6 +1,6 @@
 package test;
 
-import bankApp.Account;
+import src.Account;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -52,5 +52,8 @@ public class AccountTest {
        shukuratAccount.accountPin(1234);
        assertEquals(500, shukuratAccount.getBalance());
 }
-@Test
+    @Test
+    public void registerAccountForACustomer(){
+        shukuratAccount.registerAccount();
+    }
 }
