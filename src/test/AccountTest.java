@@ -52,5 +52,5 @@ public class AccountTest {
        shukuratAccount.accountPin(1234);
        assertEquals(500, shukuratAccount.getBalance());
 }
-
+@Test
 }
