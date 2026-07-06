@@ -1,9 +1,15 @@
 package src;
 
-public class Customer {
+public class Customer extends Account {
     private String accountNumber;
     private String firstName;
     private String lastName;
+
+    public Customer(String accountNumber, String firstName, String lastName) {
+        this.accountNumber = accountNumber;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     public String getAccountNumber() {
         return accountNumber;
